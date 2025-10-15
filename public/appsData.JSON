@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://example.com/images/whatsapp.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 1,
+    "description": "Fast, simple, and secure messaging and calling for free.",
+    "size": 85,
+    "reviews": 152000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3200000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 7200000 },
+      { "name": "4 star", "count": 34000000 },
+      { "name": "5 star", "count": 108000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/instagram.png",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 2,
+    "description": "Share your moments and connect with your friends and interests.",
+    "size": 120,
+    "reviews": 145000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4200000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 8900000 },
+      { "name": "4 star", "count": 29000000 },
+      { "name": "5 star", "count": 100000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Connect with friends, family, and communities that matter to you.",
+    "size": 150,
+    "reviews": 120000000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 24000000 },
+      { "name": "5 star", "count": 76000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/tiktok.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 4,
+    "description": "Watch and create short videos with music, filters, and fun effects.",
+    "size": 90,
+    "reviews": 98000000,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 62000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Watch videos, upload content, and explore your favorite creators.",
+    "size": 140,
+    "reviews": 150000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 96000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/gmail.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Secure, smart, and easy-to-use email service from Google.",
+    "size": 45,
+    "reviews": 98000000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 7800000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 55000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "Share quick photos and videos with friends and have fun with filters.",
+    "size": 95,
+    "reviews": 67000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1300000 },
+      { "name": "3 star", "count": 5500000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 40000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/twitter.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 8,
+    "description": "Follow your interests and share your thoughts with the world.",
+    "size": 80,
+    "reviews": 92000000,
+    "ratingAvg": 3.9,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 48000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 9,
+    "description": "Listen to millions of songs and podcasts for free.",
+    "size": 110,
+    "reviews": 95000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 1300000 },
+      { "name": "3 star", "count": 5400000 },
+      { "name": "4 star", "count": 21000000 },
+      { "name": "5 star", "count": 65000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 10,
+    "description": "Watch popular TV shows, movies, and documentaries.",
+    "size": 130,
+    "reviews": 87000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 1800000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 57000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 11,
+    "description": "Fast, secure messaging app with cloud sync and privacy features.",
+    "size": 75,
+    "reviews": 56000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1100000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 35000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoom.png",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 12,
+    "description": "Meet, chat, and collaborate with secure video calls.",
+    "size": 95,
+    "reviews": 62000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 37000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/googlemaps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Navigate your world faster with real-time maps and GPS navigation.",
+    "size": 100,
+    "reviews": 140000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 102000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 14,
+    "description": "Request a ride with Uber and get picked up by a nearby driver.",
+    "size": 75,
+    "reviews": 82000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2200000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 49000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 15,
+    "description": "Discover ideas for recipes, home decor, style, and inspiration.",
+    "size": 80,
+    "reviews": 60000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 42000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/linkedin.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 16,
+    "description": "Build your professional network and grow your career.",
+    "size": 90,
+    "reviews": 45000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/googlephotos.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Store, organize, and share all your photos safely in one place.",
+    "size": 95,
+    "reviews": 85000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1700000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 64000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/discord.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 18,
+    "description": "Chat, voice, and video communication for communities and friends.",
+    "size": 110,
+    "reviews": 50000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 38000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 19,
+    "description": "Dive into communities and discussions about your favorite topics.",
+    "size": 85,
+    "reviews": 42000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 32000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 20,
+    "description": "Shop millions of products with fast delivery and great prices.",
+    "size": 120,
+    "reviews": 92000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2300000 },
+      { "name": "2 star", "count": 1800000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 24000000 },
+      { "name": "5 star", "count": 58000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/shopee.png",
+    "title": "Shopee",
+    "companyName": "Shopee",
+    "id": 21,
+    "description": "Shop online and enjoy exclusive deals and free shipping.",
+    "size": 85,
+    "reviews": 65000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1300000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 50000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/paypal.png",
+    "title": "PayPal",
+    "companyName": "PayPal Mobile",
+    "id": 22,
+    "description": "Send, spend, and manage your money safely and easily.",
+    "size": 70,
+    "reviews": 48000000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 31000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/tinder.png",
+    "title": "Tinder",
+    "companyName": "Match Group",
+    "id": 23,
+    "description": "Meet new people, match, and chat instantly.",
+    "size": 95,
+    "reviews": 54000000,
+    "ratingAvg": 4.0,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 34500000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/messenger.png",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 24,
+    "description": "Text and video chat with your Facebook friends and contacts.",
+    "size": 110,
+    "reviews": 88000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 55500000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/googlechrome.png",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 25,
+    "description": "Fast, secure, and easy-to-use web browser for your phone.",
+    "size": 130,
+    "reviews": 150000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 112000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/duolingo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 26,
+    "description": "Learn languages for free with fun, bite-sized lessons.",
+    "size": 65,
+    "reviews": 48000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 40000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/capcut.png",
+    "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 27,
+    "description": "Create and edit amazing videos easily with effects and music.",
+    "size": 120,
+    "reviews": 65000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 51000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/microsoftteams.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 28,
+    "description": "Collaborate with your team via chat, meetings, and files.",
+    "size": 135,
+    "reviews": 59000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 39500000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/googlepay.png",
+    "title": "Google Pay",
+    "companyName": "Google LLC",
+    "id": 29,
+    "description": "Pay, send, and receive money with Google Pay securely.",
+    "size": 90,
+    "reviews": 72000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 11000000 },
+      { "name": "5 star", "count": 55000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/telegramx.png",
+    "title": "Telegram X",
+    "companyName": "Telegram FZ-LLC",
+    "id": 30,
+    "description": "A faster and more experimental version of Telegram.",
+    "size": 70,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 19500000 }
+    ]
+  }
+]
