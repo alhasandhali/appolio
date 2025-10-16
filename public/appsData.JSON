@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://example.com/images/whatsapp.png",
+    "image": "https://i.ibb.co.com/4nXpVqJd/whatsapp.png",
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/instagram.png",
+    "image": "https://i.ibb.co.com/7JqJqXGy/instagram.jpg",
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/facebook.png",
+    "image": "https://i.ibb.co.com/3mFCrHGn/facebook.png",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/tiktok.png",
+    "image": "https://i.ibb.co.com/xtVHDh5p/tiktok.png",
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/youtube.png",
+    "image": "https://i.ibb.co.com/0RN9YD5h/youtube.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/gmail.png",
+    "image": "https://i.ibb.co.com/vxvZsTzX/gmail.png",
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/snapchat.png",
+    "image": "https://i.ibb.co.com/YBgtrM19/snapchat.jpg",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/twitter.png",
+    "image": "https://i.ibb.co.com/6JfWyjhR/x.jpg",
     "title": "X (Twitter)",
     "companyName": "X Corp.",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/spotify.png",
+    "image": "https://i.ibb.co.com/1JbLMTpv/Spotify.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/netflix.png",
+    "image": "https://i.ibb.co.com/Gy0W5kS/Netflix.png",
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/telegram.png",
+    "image": "https://i.ibb.co.com/YBzhr7hH/Telegram.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/zoom.png",
+    "image": "https://i.ibb.co.com/Zz9NDh0q/zoom.webp",
     "title": "Zoom Cloud Meetings",
     "companyName": "Zoom Video Communications, Inc.",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/googlemaps.png",
+    "image": "https://i.ibb.co.com/FbMHC36G/Google-Maps.png",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/uber.png",
+    "image": "https://i.ibb.co.com/2YgmnLP4/uber.png",
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/pinterest.png",
+    "image": "https://i.ibb.co.com/9Hw9nYVM/Pinterest.png",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/linkedin.png",
+    "image": "https://i.ibb.co.com/Z1c5nfCd/LinkedIn.png",
     "title": "LinkedIn",
     "companyName": "LinkedIn Corporation",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/googlephotos.png",
+    "image": "https://i.ibb.co.com/DHLbsYKr/Google-Photos.webp",
     "title": "Google Photos",
     "companyName": "Google LLC",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/discord.png",
+    "image": "https://i.ibb.co.com/hJhchbwm/Discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/reddit.png",
+    "image": "https://i.ibb.co.com/zW2NZFFz/reddit.webp",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/amazon.png",
+    "image": "https://i.ibb.co.com/XZznfKcm/Amazon.png",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "id": 20,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/shopee.png",
+    "image": "https://i.ibb.co.com/G34kpX2z/Shopee.png",
     "title": "Shopee",
     "companyName": "Shopee",
     "id": 21,
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/paypal.png",
+    "image": "https://i.ibb.co.com/spGD0T5Z/Paypal.png",
     "title": "PayPal",
     "companyName": "PayPal Mobile",
     "id": 22,
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/tinder.png",
+    "image": "https://i.ibb.co.com/RkHxKyGb/tinder.png",
     "title": "Tinder",
     "companyName": "Match Group",
     "id": 23,
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/messenger.png",
+    "image": "https://i.ibb.co.com/s9X1JqPV/messenger.png",
     "title": "Messenger",
     "companyName": "Meta Platforms, Inc.",
     "id": 24,
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/googlechrome.png",
+    "image": "https://i.ibb.co.com/gFvMqmZn/Google-Chrome.png",
     "title": "Google Chrome",
     "companyName": "Google LLC",
     "id": 25,
@@ -450,7 +450,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/duolingo.png",
+    "image": "https://i.ibb.co.com/99GX1LYS/duolingo.png",
     "title": "Duolingo",
     "companyName": "Duolingo",
     "id": 26,
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/capcut.png",
+    "image": "https://i.ibb.co.com/ns1XbtTp/capcut.jpg",
     "title": "CapCut",
     "companyName": "Bytedance Pte. Ltd.",
     "id": 27,
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/microsoftteams.png",
+    "image": "https://i.ibb.co.com/hJyrh0XY/Microsoft-Office-Teams.webp",
     "title": "Microsoft Teams",
     "companyName": "Microsoft Corporation",
     "id": 28,
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/googlepay.png",
+    "image": "https://i.ibb.co.com/Kxb1Grh1/google-pay.jpg",
     "title": "Google Pay",
     "companyName": "Google LLC",
     "id": 29,
@@ -522,7 +522,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/telegramx.png",
+    "image": "https://i.ibb.co.com/VYVqV8j5/Telegram-X.png",
     "title": "Telegram X",
     "companyName": "Telegram FZ-LLC",
     "id": 30,

@@ -1,9 +1,10 @@
 import "./App.css";
+import Root from "./pages/Root/Root";
 
 function App() {
   return (
     <>
-      <h1 className="font-bold">Vite + React</h1>
+      <Root></Root>
     </>
   );
 }
