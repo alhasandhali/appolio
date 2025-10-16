@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const liHoverEffect =
@@ -30,41 +31,45 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li className={liHoverEffect}>
-                <a>Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className={liHoverEffect}>
-                <a>App</a>
+                <Link to="/all-apps">Apps</Link>
               </li>
               <li className={liHoverEffect}>
-                <a>Installation</a>
+                <Link to="/">Installation</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
+          <Link to="/" className="flex items-center">
             <img className="h-10" src="/src/assets/logo.png" alt="logo" />
-            <span className="inter font-bold text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+            <span className="ml-1 inter font-bold text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               Appolio
             </span>
-          </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 inter font-medium text-[16px]">
             <li className={liHoverEffect}>
-              <a>Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className={liHoverEffect}>
-              <a>App</a>
+              <Link to="/all-apps">Apps</Link>
             </li>
             <li className={liHoverEffect}>
-              <a>Installation</a>
+              <Link to="/">Installation</Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn inter font-semibold text-[16px] text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <Link
+            to="https://github.com/alhasandhali"
+            target="_blank"
+            className="btn inter font-semibold text-[16px] text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
             <img src="/src/assets/github-icon.png" alt="" />
             Contribute
-          </a>
+          </Link>
         </div>
       </div>
     </div>
