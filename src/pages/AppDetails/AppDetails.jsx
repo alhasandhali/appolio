@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   BarChart,
   Bar,
@@ -10,6 +10,10 @@ import {
 } from "recharts";
 import { useLoaderData, useParams } from "react-router";
 import AppNotFoundPage from "../AppNotFoundPage/AppNotFoundPage";
+import {
+  addInstallToStoredDB,
+  getInstallStoredApp,
+} from "../../utilities/addToLocalStorage";
 
 const AppDetails = () => {
   const formatNumber = (num) => {
@@ -30,8 +34,22 @@ const AppDetails = () => {
   const data = useLoaderData();
   const item = data.find((app) => app.id === appId);
 
-  if (!item) return <AppNotFoundPage></AppNotFoundPage>;
   const ratingsData = [...item.ratings].reverse();
+
+  const [installedApps, setInstalledApps] = useState([]);
+
+  useEffect(() => {
+    setInstalledApps(getInstallStoredApp());
+  }, []);
+
+  const handleInstallApp = (id) => {
+    addInstallToStoredDB(id);
+    setInstalledApps(getInstallStoredApp());
+  };
+
+  const isInstalled = installedApps.includes(item.id);
+
+  if (!item) return <AppNotFoundPage></AppNotFoundPage>;
 
   return (
     <div className="w-11/12 md:w-10/12 mx-auto py-10 md:py-20">
@@ -94,8 +112,11 @@ const AppDetails = () => {
               </h2>
             </div>
           </div>
-          <button className="btn inter font-semibold text-[16px] text-white bg-[#00D390] px-6 py-3 rounded-md">
-            Install Now ({item.size} MB)
+          <button
+            onClick={() => handleInstallApp(item.id)}
+            className="btn inter font-semibold text-[16px] text-white bg-[#00D390] px-6 py-3 rounded-md"
+          >
+            {isInstalled ? "Installed" : `Install Now (${item.size} MB)`}
           </button>
         </div>
       </div>

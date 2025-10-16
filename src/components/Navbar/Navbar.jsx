@@ -37,7 +37,7 @@ const Navbar = () => {
                 <Link to="/all-apps">Apps</Link>
               </li>
               <li className={liHoverEffect}>
-                <Link to="/">Installation</Link>
+                <Link to="/installed-app-list">Installation</Link>
               </li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
               <Link to="/all-apps">Apps</Link>
             </li>
             <li className={liHoverEffect}>
-              <Link to="/">Installation</Link>
+              <Link to="/installed-app-list">Installation</Link>
             </li>
           </ul>
         </div>
