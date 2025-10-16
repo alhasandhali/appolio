@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import Application from "../Application/Application";
 import { Link } from "react-router";
+import CustomLoader from "../CustomLoader/CustomLoader";
 
 const Apps = ({ data }) => {
   return (
@@ -14,15 +15,11 @@ const Apps = ({ data }) => {
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-        <Suspense fallback="Loading........">
+        <Suspense fallback={<CustomLoader></CustomLoader>}>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {Array.isArray(data) ? (
-              data
-                .slice(0, 8)
-                .map((app) => <Application key={app.id} app={app} />)
-            ) : (
-              <p>Loading...</p>
-            )}
+            {data.slice(0, 8).map((app) => (
+              <Application key={app.id} app={app} />
+            ))}
           </div>
         </Suspense>
         <div className="flex justify-center mt-10">

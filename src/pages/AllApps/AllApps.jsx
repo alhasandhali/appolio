@@ -1,15 +1,31 @@
 import React, { Suspense, useState } from "react";
 import { useLoaderData } from "react-router";
 import Application from "../Application/Application";
+import CustomLoader from "../CustomLoader/CustomLoader";
 
 const AllApps = () => {
   const data = useLoaderData();
   const [searchTerm, setSearchTerm] = useState("");
+  // const [loading, setLoading] = useState(true);
+
+  // useEffect(() => {
+  //   if (data && data.length >= 0) {
+  //     setLoading(false);
+  //   }
+  // }, [data]);
 
   const filteredApps = data.filter((app) =>
     app.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
-  console.log(filteredApps);
+
+  // if (loading) {
+  //   return (
+  //     <div className="flex justify-center items-center py-20">
+  //       <ClipLoader size={60} color="#4fa94d" />
+  //     </div>
+  //   );
+  // }
+
   return (
     <div className="w-10/12 m-auto py-20">
       <div className="pb-10 text-center">
@@ -50,7 +66,7 @@ const AllApps = () => {
           />
         </label>
       </div>
-      <Suspense fallback="Loading........">
+      <Suspense fallback={<CustomLoader></CustomLoader>}>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredApps.length > 0 ? (
             filteredApps.map((app) => <Application key={app.id} app={app} />)

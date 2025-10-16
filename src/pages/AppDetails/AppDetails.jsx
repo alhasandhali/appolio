@@ -17,8 +17,11 @@ import {
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
+import { ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
+  // const notify = () => toast.success("App Installed Successfully ! ! !");
+
   const formatNumber = (num) => {
     if (num >= 1_000_000_000) {
       return (num / 1_000_000_000).toFixed(1).replace(/\.0$/, "") + "B";
@@ -48,6 +51,7 @@ const AppDetails = () => {
   const handleInstallApp = (id) => {
     addInstallToStoredDB(id);
     setInstalledApps(getInstallStoredApp());
+    // notify();
   };
 
   const isInstalled = installedApps.includes(item.id);
@@ -56,6 +60,7 @@ const AppDetails = () => {
 
   return (
     <div className="w-11/12 md:w-10/12 mx-auto py-10 md:py-20">
+      <ToastContainer />
       <div className="flex flex-col md:flex-row gap-8 md:gap-10 items-center pb-10 mb-10 border-b-2 border-[#00193130]">
         <img
           src={item.image}
