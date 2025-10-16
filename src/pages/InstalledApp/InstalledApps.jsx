@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import {
   getInstallStoredApp,
   removeInstallFromStoredDB,
 } from "../../utilities/addToLocalStorage";
+import downloadIcon from "../../assets/icon-downloads.png";
+import ratingIcon from "../../assets/icon-ratings.png";
 
 const InstalledApps = () => {
   const formatNumber = (num) => {
@@ -75,14 +77,13 @@ const InstalledApps = () => {
         </div>
       </div>
 
-      {/* App Cards */}
       <div className="grid grid-cols-1 gap-6 mt-6">
         {appList.map((app) => (
           <div
             key={app.id}
-            className="card flex flex-col sm:flex-row bg-base-100 shadow-sm rounded-2xl overflow-hidden p-4 sm:p-5 md:p-6"
+            className="card flex flex-col sm:flex-row bg-base-100 shadow-sm rounded-2xl overflow-hidden p-4 sm:p-5 md:p-6 items-center"
           >
-            <figure className="flex-shrink-0 mb-4 sm:mb-0 flex justify-center sm:justify-start">
+            <figure className="flex-shrink-0 mb-4 sm:mb-0 flex justify-center sm:justify-start md:mr-4 ">
               <img
                 className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 object-contain"
                 src={app.image}
@@ -91,25 +92,18 @@ const InstalledApps = () => {
             </figure>
             <div className="flex-1 flex flex-col sm:flex-row justify-between items-center sm:items-start gap-4">
               <div className="text-center sm:text-left">
-                <h2 className="inter font-medium text-lg sm:text-xl text-[#001931] mb-2">
-                  {app.title}
-                </h2>
-
-                <div className="flex flex-wrap justify-center sm:justify-start gap-3">
+                <Link to={`/app-details/${app.id}`}>
+                  <h2 className="inter font-medium text-lg sm:text-xl text-[#001931] mb-2">
+                    {app.title}
+                  </h2>
+                </Link>
+                <div className="flex flex-wrap justify-center sm:justify-start gap-3 it">
                   <div className="badge inter font-medium text-sm sm:text-base text-[#00D390] flex items-center gap-1">
-                    <img
-                      className="h-4"
-                      src="/src/assets/icon-downloads.png"
-                      alt=""
-                    />
+                    <img className="h-4" src={downloadIcon} alt="download" />
                     {formatNumber(app.downloads)}
                   </div>
                   <div className="badge inter font-medium text-sm sm:text-base text-[#FF8811] flex items-center gap-1">
-                    <img
-                      className="h-4"
-                      src="/src/assets/icon-ratings.png"
-                      alt=""
-                    />
+                    <img className="h-4" src={ratingIcon} alt="rating" />
                     {app.ratingAvg}
                   </div>
                   <div className="badge inter font-medium text-sm sm:text-base text-[#627382]">

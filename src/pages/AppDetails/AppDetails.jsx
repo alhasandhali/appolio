@@ -14,6 +14,9 @@ import {
   addInstallToStoredDB,
   getInstallStoredApp,
 } from "../../utilities/addToLocalStorage";
+import downloadIcon from "../../assets/icon-downloads.png";
+import ratingIcon from "../../assets/icon-ratings.png";
+import reviewIcon from "../../assets/icon-review.png";
 
 const AppDetails = () => {
   const formatNumber = (num) => {
@@ -73,11 +76,7 @@ const AppDetails = () => {
           </div>
           <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-10 mb-7">
             <div className="flex flex-col items-center md:items-start">
-              <img
-                src="/src/assets/icon-downloads.png"
-                alt="downloads"
-                className="w-6 h-6"
-              />
+              <img src={downloadIcon} alt="downloads" className="w-6 h-6" />
               <p className="inter font-normal text-[16px] text-[#001931] my-2">
                 Downloads
               </p>
@@ -86,11 +85,7 @@ const AppDetails = () => {
               </h2>
             </div>
             <div className="flex flex-col items-center md:items-start">
-              <img
-                src="/src/assets/icon-ratings.png"
-                alt="ratings"
-                className="w-6 h-6"
-              />
+              <img src={ratingIcon} alt="ratings" className="w-6 h-6" />
               <p className="inter font-normal text-[16px] text-[#001931] my-2">
                 Average Ratings
               </p>
@@ -99,11 +94,7 @@ const AppDetails = () => {
               </h2>
             </div>
             <div className="flex flex-col items-center md:items-start">
-              <img
-                src="/src/assets/icon-review.png"
-                alt="reviews"
-                className="w-6 h-6"
-              />
+              <img src={reviewIcon} alt="reviews" className="w-6 h-6" />
               <p className="inter font-normal text-[16px] text-[#001931] my-2">
                 Total Reviews
               </p>

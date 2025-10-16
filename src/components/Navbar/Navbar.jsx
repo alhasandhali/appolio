@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
+import logo from "../../assets/logo.png";
+import githubIcon from "../../assets/github-icon.png";
 
 const Navbar = () => {
   const liHoverEffect =
@@ -42,7 +44,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="flex items-center">
-            <img className="h-10" src="/src/assets/logo.png" alt="logo" />
+            <img className="h-10" src={logo} alt="logo" />
             <span className="ml-1 inter font-bold text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               Appolio
             </span>
@@ -67,7 +69,7 @@ const Navbar = () => {
             target="_blank"
             className="btn inter font-semibold text-[16px] text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
           >
-            <img src="/src/assets/github-icon.png" alt="" />
+            <img src={githubIcon} alt="github" />
             Contribute
           </Link>
         </div>

@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router";
+import appErrorIcon from "../../assets/App-Error.png";
 
 const AppNotFoundPage = () => {
   return (
     <div className="flex flex-col items-center justify-center py-16 sm:py-20 px-4 sm:px-6 md:px-8 text-center">
       <div className="mb-6">
         <img
-          src="/src/assets/App-Error.png"
+          src={appErrorIcon}
           alt="404 Error"
           className="w-40 sm:w-56 md:w-72 lg:w-96 mx-auto"
         />

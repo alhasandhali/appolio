@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
+import downloadIcon from "../../assets/icon-downloads.png";
+import ratingIcon from "../../assets/icon-ratings.png";
 
 const Application = ({ app }) => {
   const formatNumber = (num) => {
@@ -27,15 +29,11 @@ const Application = ({ app }) => {
           </h2>
           <div className="card-actions justify-between">
             <div className="badge bg-[#F1F5E8] inter font-medium text-[16px] text-[#00D390]">
-              <img
-                className="h-4"
-                src="/src/assets/icon-downloads.png"
-                alt=""
-              />
+              <img className="h-4" src={downloadIcon} alt="download" />
               {formatNumber(app.downloads)}
             </div>
             <div className="badge bg-[#FFF0E1] inter font-medium text-[16px] text-[#FF8811]">
-              <img className="h-4" src="/src/assets/icon-ratings.png" alt="" />
+              <img className="h-4" src={ratingIcon} alt="rating" />
               {app.ratingAvg}
             </div>
           </div>

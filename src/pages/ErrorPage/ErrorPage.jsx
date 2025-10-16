@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router";
+import erroPageImg from "../../assets/error-404.png";
 
 const ErrorPage = () => {
   return (
@@ -9,7 +10,7 @@ const ErrorPage = () => {
       <div className="w-11/12 sm:w-10/12 md:w-8/12 lg:w-6/12 m-auto py-10 sm:py-20 text-center">
         <div className="flex justify-center">
           <img
-            src="/src/assets/error-404.png"
+            src={erroPageImg}
             alt="404 Error"
             className="w-48 sm:w-64 md:w-80 lg:w-96 mx-auto"
           />

@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
+import googlePlayStoreIcon from "../../assets/play-store-icon.png";
+import appStoreIcon from "../../assets/app-store-icon.png";
+import bannerImg from "../../assets/hero.png";
 
 const Banner = () => {
   return (
@@ -27,7 +30,7 @@ const Banner = () => {
             className="btn inter font-semibold text-base md:text-[16px] flex items-center gap-2"
           >
             <img
-              src="/src/assets/play-store-icon.png"
+              src={googlePlayStoreIcon}
               alt="Play Store"
               className="w-5 h-5"
             />
@@ -39,18 +42,14 @@ const Banner = () => {
             target="_blank"
             className="btn inter font-semibold text-base md:text-[16px] flex items-center gap-2"
           >
-            <img
-              src="/src/assets/app-store-icon.png"
-              alt="App Store"
-              className="w-5 h-5"
-            />
+            <img src={appStoreIcon} alt="App Store" className="w-5 h-5" />
             App Store
           </Link>
         </div>
         <div className="mt-10">
           <img
             className="m-auto w-full max-w-[700px] px-4"
-            src="/src/assets/hero.png"
+            src={bannerImg}
             alt="Hero illustration"
           />
         </div>

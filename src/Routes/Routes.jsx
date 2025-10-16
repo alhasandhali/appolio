@@ -14,24 +14,24 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch("/public/appsData.JSON"),
+        loader: () => fetch("/appsData.JSON"),
         path: "/",
         Component: Home,
       },
       {
         path: "/all-apps",
-        loader: () => fetch("/public/appsData.JSON"),
+        loader: () => fetch("/appsData.JSON"),
         Component: AllApps,
       },
       {
         path: "/app-details/:id",
-        loader: () => fetch("/public/appsData.JSON"),
+        loader: () => fetch("/appsData.JSON"),
         Component: AppDetails,
         errorElement: <AppNotFoundPage></AppNotFoundPage>,
       },
       {
         path: "/installed-app-list",
-        loader: () => fetch("/public/appsData.JSON"),
+        loader: () => fetch("/appsData.JSON"),
         Component: InstalledApps,
       },
     ],
