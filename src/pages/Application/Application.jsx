@@ -19,7 +19,7 @@ const Application = ({ app }) => {
 
   return (
     <Link to={`/app-details/${app.id}`}>
-      <div className="card bg-base-100 w-full h-full shadow-sm p-3">
+      <div className="card bg-base-100 w-full h-full shadow-sm p-3 transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
         <figure className="flex justify-center">
           <img
             className="h-full sm:h-56 md:h-64 object-contain"

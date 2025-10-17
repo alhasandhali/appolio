@@ -1,11 +1,25 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import logo from "../../assets/logo.png";
 import githubIcon from "../../assets/github-icon.png";
 
 const Navbar = () => {
-  const liHoverEffect =
-    "font-bold text-lg bg-gradient-to-r from-black to-black bg-clip-text text-transparent transition-all duration-500 hover:from-[#9F62F2] hover:to-[#632EE3] border";
+  const location = useLocation();
+
+  const liBase =
+    "relative font-bold text-lg transition-all duration-500 rounded-none bg-clip-text text-transparent [background-clip:text] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]";
+
+  const liDefault = "bg-gradient-to-r from-black to-black";
+
+  const liHover =
+    "hover:bg-gradient-to-r hover:from-[#9F62F2] hover:to-[#632EE3] hover:after:scale-x-100";
+
+  const liUnderline =
+    "after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-gradient-to-r after:from-[#9F62F2] after:to-[#632EE3] after:transition-transform after:duration-500";
+
+  const liActive =
+    "!bg-gradient-to-r !from-[#9F62F2] !to-[#632EE3] after:scale-x-100";
+
   return (
     <div className="bg-base-100 shadow-sm">
       <div className="navbar w-10/12 m-auto">
@@ -32,13 +46,13 @@ const Navbar = () => {
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li className={liHoverEffect}>
+              <li className="">
                 <Link to="/">Home</Link>
               </li>
-              <li className={liHoverEffect}>
+              <li className="">
                 <Link to="/all-apps">Apps</Link>
               </li>
-              <li className={liHoverEffect}>
+              <li className="">
                 <Link to="/installed-app-list">Installation</Link>
               </li>
             </ul>
@@ -50,16 +64,37 @@ const Navbar = () => {
             </span>
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 inter font-medium text-[16px]">
-            <li className={liHoverEffect}>
-              <Link to="/">Home</Link>
+        <div className="navbar-center hidden lg:flex items-center">
+          <ul className="menu menu-horizontal inter font-medium text-[16px]">
+            <li>
+              <Link
+                to="/"
+                className={`${liBase} ${liDefault} ${liUnderline} ${liHover} ${
+                  location.pathname === "/" ? liActive : ""
+                } mr-3`}
+              >
+                Home
+              </Link>
             </li>
-            <li className={liHoverEffect}>
-              <Link to="/all-apps">Apps</Link>
+            <li>
+              <Link
+                to="/all-apps"
+                className={`${liBase} ${liDefault} ${liUnderline} ${liHover} ${
+                  location.pathname === "/all-apps" ? liActive : ""
+                } mr-3`}
+              >
+                Apps
+              </Link>
             </li>
-            <li className={liHoverEffect}>
-              <Link to="/installed-app-list">Installation</Link>
+            <li>
+              <Link
+                to="/installed-app-list"
+                className={`${liBase} ${liDefault} ${liUnderline} ${liHover} ${
+                  location.pathname === "/installed-app-list" ? liActive : ""
+                }`}
+              >
+                Installation
+              </Link>
             </li>
           </ul>
         </div>
