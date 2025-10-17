@@ -17,7 +17,7 @@ const CustomLoader = () => {
       <img
         src={logoImg}
         alt="Logo"
-        className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 mr-2"
+        className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 mr-2 animate-spin"
       />
       <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#001931]">
         Loading{" ".repeat(dots)}
