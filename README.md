@@ -1,4 +1,4 @@
-<img align="center" width="100%" src="https://i.ibb.co.com/0RFGWdXP/Screenshot-2025-11-19-153734.png" alt="home-page">
+<img align="center" width="100%" src="./home-page.png" alt="home-page">
 
 # Appolio – Modern App Discovery & Management
 
